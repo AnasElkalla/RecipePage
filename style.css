@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit";
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(243, 230, 216);
+}
+
+article {
+  width: 55%;
+  margin: 5rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 16px;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+img {
+  width: 100%;
+  border-radius: 16px;
+}
+@media (max-width: 768px) {
+  article {
+    width: 100%;
+    padding-top: 0;
+    margin: 0;
+  }
+  img {
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    border-radius: 0 0 0 0;
+    margin-top: 0;
+  }
+}
+h1,
+h3 {
+  font-family: "Young Serif";
+}
+
+h1 {
+  margin-block: 1.5rem;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  color: hsl(24, 5%, 18%);
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-time h3 {
+  font-family: "Outfit";
+  color: hsl(332, 51%, 32%);
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.ingredients ul {
+  list-style-position: outside;
+  margin-left: 1.25rem;
+}
+
+.ingredients ul li {
+  padding-left: 1rem;
+}
+
+li {
+  padding-left: 0.2rem;
+  margin-top: 1rem;
+  font-size: 16px;
+}
+
+li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+ol li::marker {
+  font-weight: bold;
+  font-family: "Outfit";
+  font-size: 1rem;
+}
+
+ol strong,
+ul strong {
+  margin-left: 1.2rem;
+}
+
+.preparation-time li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 2rem;
+  border-radius: 16px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  width: 100%;
+}
+td {
+  padding: 0.5rem 0;
+  width: 50%;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+td:first-child {
+  padding-left: 2rem;
+  font-weight: normal;
+  color: hsl(30, 10%, 34%);
+}
