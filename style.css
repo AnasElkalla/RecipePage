@@ -58,6 +58,7 @@ h1 {
 h3 {
   color: hsl(14, 45%, 36%);
   font-size:1.5rem;
+  font-weight:lighter;
 }
 
 .preparation-time h3 {
